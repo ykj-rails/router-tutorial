@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import App from './App'
-import Expenses from './routes/expenses'
-import Invoice from './routes/invoice'
+import { App } from './App'
+import { Expenses } from './routes/expenses'
+import { Invoice } from './routes/invoice'
 import Invoices from './routes/invoices'
 
 ReactDOM.render(

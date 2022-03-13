@@ -1,6 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 
-export default function App() {
+export const App = () => {
   return (
     <div>
       <h1>Bookkeeper!</h1>
