@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useSearchParams } from 'react-router-dom'
 import { getInvoices } from '../data'
 
-export default function Invoices() {
+export const Invoices = () => {
   const invoices = getInvoices()
   const [searchParams, setSearchParams] = useSearchParams()
 
